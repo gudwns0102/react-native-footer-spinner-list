@@ -1,6 +1,6 @@
 {
   "name": "react-native-footer-spinner-list",
-  "version": "0.0.1-beta.2",
+  "version": "0.0.2",
   "description": "react-native flatlist with footer spinner while fetch new data",
   "main": "index.js",
   "scripts": {

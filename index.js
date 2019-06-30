@@ -15,6 +15,8 @@ class FooterSpinnerList extends React.Component {
       innerRef,
       ListFooterComponent,
       onEndReached,
+      footerSpinnerStyle,
+      footerSpinnerContainerStyle,
       ...props
     } = this.props;
     const { showFooterSpinner } = this.state;
@@ -48,10 +50,19 @@ class FooterSpinnerList extends React.Component {
   };
 
   get footerSpinner() {
-    const { footerSpinnerStyle, ListFooterComponent } = this.props;
+    const {
+      footerSpinnerStyle,
+      footerSpinnerContainerStyle,
+      ListFooterComponent
+    } = this.props;
 
     const FooterComponent = ListFooterComponent || (
-      <View style={styles.footerSpinnerContainerStyle}>
+      <View
+        style={[
+          styles.footerSpinnerContainerStyle,
+          footerSpinnerContainerStyle
+        ]}
+      >
         <ActivityIndicator style={footerSpinnerStyle} />
       </View>
     );
