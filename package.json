@@ -1,6 +1,6 @@
 {
   "name": "react-native-footer-spinner-list",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.2",
   "description": "react-native flatlist with footer spinner while fetch new data",
   "main": "index.js",
   "scripts": {
@@ -14,17 +14,10 @@
     "react-native",
     "flatlist"
   ],
-  "author": "“Hyungjun <“sejong3408@gmail.com”>",
+  "author": "Hyungjun <\"sejong3408@gmail.com\">",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gudwns0102/react-native-footer-spinner-list/issues"
   },
-  "homepage": "https://github.com/gudwns0102/react-native-footer-spinner-list#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "@types/react": "^16.8.22",
-    "@types/react-native": "^0.57.64",
-    "react": "^16.8.6",
-    "react-native": "^0.59.9"
-  }
+  "homepage": "https://github.com/gudwns0102/react-native-footer-spinner-list#readme"
 }
