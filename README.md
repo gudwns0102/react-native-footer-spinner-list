@@ -1,0 +1,1 @@
+# react-native-footer-spinner-list
